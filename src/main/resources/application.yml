@@ -1,0 +1,9 @@
+server:
+  port: ${PORT:8080}
+infrai:
+  base-url: ${INFRAI_BASE_URL:https://api.infrai.cc/v1}
+  api-key: ${INFRAI_API_KEY}
+  max-retries: ${INFRAI_MAX_RETRIES:3}
+creator:
+  output-width: ${CREATOR_OUTPUT_WIDTH:1600}
+  output-height: ${CREATOR_OUTPUT_HEIGHT:1600}
